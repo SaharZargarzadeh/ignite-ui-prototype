@@ -22,7 +22,7 @@ Start a local development server:
 ```bash
 npm start
 
-## Build
+##  Build
 
 Run `npm run build` to build the application into an output directory.
 
