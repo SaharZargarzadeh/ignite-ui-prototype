@@ -1,45 +1,84 @@
 # ⚡ Ignite UI Web App Prototype
 
-This repository contains a front-end prototype generated using **App Builder Code Gen** and **Ignite UI for Web Components**. It serves as a starter template for developing responsive, component-driven web applications using TypeScript and Web Components.
+This repository contains a front-end prototype generated using **App Builder Code Gen** and **Ignite UI for Web Components**. It serves as a starter template for developing responsive, component-driven web applications using **TypeScript** and **Web Components**.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Framework**: Ignite UI for Web Components
-- **Language**: TypeScript
-- **Build System**: npm + CLI tooling
-- **Testing**: Web Test Runner
-- **Linting**: ESLint
+- **Framework**: Ignite UI for Web Components  
+- **Language**: TypeScript  
+- **Build System**: npm + CLI tooling  
+- **Testing**: Web Test Runner  
+- **Linting**: ESLint  
 
 ---
+
 ## 🚀 Getting Started
 
-### Development Server
+To get the app up and running locally, follow these steps:
 
-Start a local development server:
+### 1️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 2️⃣ Run the Development Server
+
+Start the local development server and open the app in your default browser at `http://localhost:8000`:
 
 ```bash
 npm start
+```
 
-##  Build
+### 3️⃣ Build the Application
 
-Run `npm run build` to build the application into an output directory.
+Create a production-ready build in the output directory:
 
-## Running unit tests
+```bash
+npm run build
+```
 
-Run `npm test` to execute the unit tests via [Web Test Runner](https://modern-web.dev/docs/test-runner/overview). Runs all `.test.ts` files under `./src` folder.
+### 4️⃣ Run Unit Tests
 
-## Running code style checks
+Execute all test files (`.test.ts`) under the `./src` folder using [Web Test Runner](https://modern-web.dev/docs/test-runner/overview):
 
-Run `npm run lint` to execute the code styling rules for the project.
+```bash
+npm test
+```
 
-## Licensing
+### 5️⃣ Run Code Style Checks
 
-See the [License FAQ and Installation documentation](https://www.infragistics.com/products/ignite-ui-web-components/web-components/components/general-licensing) for information on how to upgrade to the full licensed package, if the project is using a Trial version of Ignite UI for Web Components, and how to setup your environment and CI to use our licensed npm feed.
+Lint your code to ensure it follows project style guidelines:
 
-Alternatively run `npm run infragistics-login` for a guided login to our licensed feed.
+```bash
+npm run lint
+```
 
-## Additional resources
+---
 
-- [Ignite UI for Web Components](https://www.infragistics.com/products/ignite-ui-web-components) - to learn more about the product or to dive into component specifics and showcases.
+## 🔐 Licensing
+
+If this project is using a **trial version** of Ignite UI for Web Components, review the [License FAQ and Installation Guide](https://www.infragistics.com/products/ignite-ui-web-components/web-components/components/general-licensing) to:
+
+- Upgrade to the full licensed version
+- Set up CI/CD for licensed usage
+- Access the licensed npm feed
+
+You can also log in to the licensed feed via CLI:
+
+```bash
+npm run infragistics-login
+```
+
+---
+
+## 📚 Additional Resources
+
+- 🔗 [Ignite UI for Web Components Documentation](https://www.infragistics.com/products/ignite-ui-web-components)  
+- 🔗 [App Builder by Infragistics](https://www.infragistics.com/products/appbuilder)
+
+---
+
+> ⚠️ _Note: This project was initially created as a prototype. It can be extended or customized for further development or production use._
