@@ -1,10 +1,26 @@
-# untitled-app
+# ⚡ Ignite UI Web App Prototype
 
-This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
+This repository contains a front-end prototype generated using **App Builder Code Gen** and **Ignite UI for Web Components**. It serves as a starter template for developing responsive, component-driven web applications using TypeScript and Web Components.
 
-## Development server
+---
 
-Run `npm start` to build the application, start a web server and open the application in the default browser. The application will open in `http://localhost:8000/` by default.
+## 🛠 Tech Stack
+
+- **Framework**: Ignite UI for Web Components
+- **Language**: TypeScript
+- **Build System**: npm + CLI tooling
+- **Testing**: Web Test Runner
+- **Linting**: ESLint
+
+---
+## 🚀 Getting Started
+
+### Development Server
+
+Start a local development server:
+
+```bash
+npm start
 
 ## Build
 
